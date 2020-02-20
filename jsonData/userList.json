@@ -1,0 +1,10 @@
+{
+    "students" :
+    [
+        {"user":"17BCE1041", "password":"a1","courses":[]},
+        {"user":"17BCE1042", "password":"a2","courses":[]},
+        {"user":"17BCE1043", "password":"a3","courses":[]},
+        {"user":"17BCE1044", "password":"a4","courses":[]},
+        {"user":"17BCE1045", "password":"a5","courses":[]}
+    ]
+}

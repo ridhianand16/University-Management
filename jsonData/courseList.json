@@ -1,0 +1,10 @@
+{
+    "courses":[
+    {"subject":"Theory of Computation", "code":"CSE1001", "credits":5},            
+    {"subject":"Environmental Science", "code":"CHM1041", "credits":3},
+    {"subject":"Introduction to Nuclear Energy", "code":"PHY1041", "credits":3},
+    {"subject":"Large Scale Data Processing", "code":"CSE4011", "credits":4},
+    {"subject":"Introduction to Marketting", "code":"MGT1004", "credits":2},
+    {"subject":"Internet and Web Programming", "code":"CSE2011", "credits":3},
+    {"subject":"Operating Systems", "code":"CSE3001", "credits":4}]
+}
