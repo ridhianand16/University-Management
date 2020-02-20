@@ -1,4 +1,4 @@
-##Instructions to use the app
+## Instructions to use the app
 
 Use node app.js to start the web-app
 
@@ -12,7 +12,7 @@ Username - 17BCE1041
 
 Password - a1
 
-###The following components were used to make the project
+### The following components were used to make the project
 
 - Node.js
 - Express.js
