@@ -18,4 +18,5 @@ Password - a1
 - Express.js
 - Pug
 - Bootstrap and CSS for formatting 
+- Sessions (express-session) and Redis 
 
