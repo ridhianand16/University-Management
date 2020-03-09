@@ -1,0 +1,55 @@
+extends layout
+block content
+    div.text-center
+        form(class="form-signin" method="POST",action="/users/login") 
+            #error
+                if error
+                    p.text-danger Error!!!
+            - var h1Classes = ['h3', 'mb-3', 'font-weight-normal']
+        
+            h1(class=h1Classes) Please sign in
+            label( for="inputEmail" class="sr-only") Registration Number
+            input(type="text" name="username" id="username" class="form-control" placeholder="Registration Number" required autofocus)
+            //password
+            label(for="inputPassword" class="sr-only") Password
+            input(type="password" name="password" id="password" class="form-control" placeholder="Password" required)
+            - var divClasses=['checkbox', 'mb-3'];
+            div(class=divClasses)
+                label
+                    input(type="checkbox" value="remember-me")
+                    span Remember me
+            - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'btn-block'];
+            button(class=buttonClass type="submit") Sign in
+
+
+    //-
+
+        //action="/users/login")
+
+        html
+            head
+                //link(rel='stylesheet', href= 'css/main.css',type='text/css' )
+                style
+                    include ./css/main.css
+            title "University of Paypal - Login"
+            
+            body
+                h1(style = 'text-align: center') University of Paypal Login
+                form(action = '/student', method = 'POST')
+                br
+                //break 
+                legend Student Login
+                br
+                p(class = 'form__group') Registration No : 
+                input#regno(type = 'text', name = 'regno',class = 'form__input')
+                br 
+                br
+                p(class = 'form__group') Password :   
+                input#password(type = 'password', name = 'password',class = 'form__input')
+                br
+                br
+                input(class = 'btn',type = 'submit', name = 'submit', value = 'login')
+                br
+                br
+
+            
